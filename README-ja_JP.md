@@ -17,7 +17,7 @@
 </p>
 
 <p align="center">
-  <a href="http://tdesign.yuayait.com/">ライブプレビュー</a>
+  <a href="http://tdesign.yueyait.com/">ライブプレビュー</a>
   ·
   <a href="https://tdesign.tencent.com/starter/">ドキュメント</a>
   ·

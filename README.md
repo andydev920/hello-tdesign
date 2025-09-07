@@ -17,7 +17,7 @@
 </p>
 
 <p align="center">
-  <a href="http://tdesign.yuayait.com/">Live Preview</a>
+  <a href="http://tdesign.yueyait.com/">Live Preview</a>
   ·
   <a href="https://tdesign.tencent.com/starter/">Documentation</a>
   ·
