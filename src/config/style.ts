@@ -4,7 +4,7 @@ export default {
   showBreadcrumb: false,
   menuAutoCollapsed: false,
   mode: 'light',
-  layout: 'side',
+  layout: 'mix',
   splitMenu: false,
   sideMode: 'light',
   isFooterAside: false,
@@ -12,5 +12,5 @@ export default {
   isHeaderFixed: true,
   isUseTabsRouter: false,
   showHeader: true,
-  brandTheme: '#0052D9',
+  brandTheme: '#00A870',
 };

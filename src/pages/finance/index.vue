@@ -1,11 +1,5 @@
 <template>
   <div class="finance-container">
-    <!-- 页面标题 -->
-    <div class="page-header">
-      <h1>{{ t('pages.finance.title') }}</h1>
-      <p class="page-subtitle">{{ t('pages.finance.subtitle') }}</p>
-    </div>
-
     <!-- 主要内容区域 -->
     <t-row :gutter="24" class="finance-main-row">
       <!-- 左侧卡片区域 -->

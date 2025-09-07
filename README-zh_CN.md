@@ -17,7 +17,7 @@
 </p>
 
 <p align="center">
-  <a href="http://tdesign.tencent.com/starter/vue-next/">在线预览</a>
+  <a href="http://tdesign.yuayait.com/">在线预览</a>
   ·
   <a href="https://tdesign.tencent.com/starter/">使用文档</a>
   ·

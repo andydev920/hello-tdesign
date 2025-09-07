@@ -37,7 +37,8 @@ export default ({ mode }: ConfigEnv): UserConfig => {
       vueJsx(),
       viteMockServe({
         mockPath: 'mock',
-        enable: true,
+        enable: mode === 'mock' || mode === 'build-mock',
+        watchFiles: true,
       }),
       svgLoader(),
     ],

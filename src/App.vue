@@ -15,11 +15,13 @@ const mode = computed(() => {
   return store.displayMode;
 });
 
-const { getComponentsLocale, locale, initializeFont } = useLocale();
+const { getComponentsLocale, locale, initializeFont, initializeLanguage, forceSystemLanguage } = useLocale();
 
-// 初始化字体
+// 初始化语言和字体
 onMounted(() => {
-  initializeFont();
+  // 临时使用强制系统语言检测来测试
+  forceSystemLanguage(); // 强制使用系统语言
+  initializeFont(); // 然后初始化字体
 });
 </script>
 <style lang="less" scoped>

@@ -1,10 +1,14 @@
 export default {
+  title: 'Login to account',
+  subtitle: 'Access to the most powerful tool in the entire design and web industry.',
+  orLoginWith: 'Or login with',
   loginTitle: 'Login in',
   noAccount: 'No Account?',
   createAccount: 'Create Account',
   remember: 'Remember Account',
-  forget: 'Forget Account',
+  forget: 'Forget password?',
   signIn: 'Sign in',
+  register: 'Register new account',
   existAccount: 'Exist Account?',
   refresh: 'refresh',
   wechatLogin: 'Login with WeChat',
@@ -23,4 +27,6 @@ export default {
     verification: 'verification code is require',
   },
   sendVerification: 'send',
+  success: 'Login successful',
+  error: 'Login failed',
 };

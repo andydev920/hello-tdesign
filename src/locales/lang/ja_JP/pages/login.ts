@@ -1,12 +1,15 @@
 export default {
+  title: 'アカウントにログイン',
+  subtitle: 'デザインとウェブ業界全体で最も強力なツールにアクセス。',
+  orLoginWith: 'または以下でログイン',
   loginTitle: 'ログイン',
   noAccount: 'アカウントをお持ちでない方は？',
   existAccount: 'アカウントをお持ちですか？',
   createAccount: '新規アカウント作成',
   remember: 'アカウントを記憶する',
-  forget: 'アカウントを忘れた',
+  forget: 'パスワードを忘れた？',
   signIn: 'ログイン',
-  register: '登録',
+  register: '新規アカウント登録',
   refresh: '更新',
   wechatLogin: 'WeChatスキャンでログイン',
   accountLogin: 'アカウントでログイン',
@@ -24,5 +27,6 @@ export default {
     verification: '認証コードは必須です',
   },
   sendVerification: '認証コード送信',
+  success: 'ログイン成功',
+  error: 'ログイン失敗',
 };
-

@@ -17,7 +17,7 @@
 </p>
 
 <p align="center">
-  <a href="http://tdesign.tencent.com/starter/vue-next/">ライブプレビュー</a>
+  <a href="http://tdesign.yuayait.com/">ライブプレビュー</a>
   ·
   <a href="https://tdesign.tencent.com/starter/">ドキュメント</a>
   ·
