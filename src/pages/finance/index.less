@@ -1,0 +1,430 @@
+// 财务管理页面样式文件
+// Finance Management Page Styles
+
+.finance-container {
+  padding: 24px;
+  min-height: calc(100vh - 64px);
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.finance-main-row {
+  width: 100%;
+  margin: 0;
+
+  .t-col {
+    margin-bottom: 0;
+  }
+}
+
+.left-cards {
+  .finance-card {
+    background: white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+  }
+}
+
+.main-content {
+  padding-left: 0;
+  width: 100%;
+
+  .t-card {
+    width: 100%;
+  }
+}
+
+// 主卡片样式
+.main-card {
+  width: 100% !important;
+  max-width: 100% !important;
+
+  :deep(.t-card__body) {
+    padding: 24px;
+  }
+
+  :deep(.t-card__header) {
+    padding: 20px 24px 0 24px;
+  }
+}
+
+.page-header {
+  margin-bottom: 24px;
+
+  h1 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #252933;
+    margin: 0 0 8px 0;
+  }
+
+  .page-subtitle {
+    color: #666;
+    margin: 0;
+  }
+}
+
+// 财务卡片头部样式
+.finance-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+  .card-title {
+    font-weight: 500;
+    font-size: 16px;
+    color: #252933;
+    text-align: left;
+    flex: 1;
+  }
+
+  .t-button {
+    color: #666;
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: var(--td-brand-color);
+    }
+
+    .t-icon {
+      font-size: 16px;
+    }
+  }
+}
+
+.finance-card {
+  .account-balance {
+    text-align: center;
+    padding: 16px 0;
+
+    .amount {
+      font-size: 24px;
+      font-weight: 600;
+      color: #252933;
+    }
+  }
+
+  .cash-detail {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 8px;
+  }
+
+  :deep(.t-button) {
+    margin-top: 12px;
+  }
+}
+
+.promotion-banner {
+  margin: 16px 0;
+
+  .promotion-content {
+    .promotion-title {
+      font-weight: 600;
+      margin-bottom: 4px;
+      font-size: 14px;
+    }
+
+    .promotion-subtitle {
+      font-size: 12px;
+      color: #666;
+      margin-bottom: 8px;
+    }
+  }
+
+  :deep(.t-alert) {
+    border-radius: 6px;
+  }
+}
+
+.preparation-banner {
+  background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+  width: 100%;
+
+  .banner-content {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+
+    .banner-icon {
+      color: #1976d2;
+    }
+
+    .banner-text {
+      flex: 1;
+
+      h3 {
+        margin: 0;
+        color: #252933;
+        font-size: 18px;
+      }
+    }
+  }
+}
+
+.guidance-card {
+  width: 100%;
+
+  .guidance-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+    .guidance-left {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+
+      .guidance-icon {
+        background: #f0f8ff;
+        padding: 12px;
+        border-radius: 8px;
+        color: #1976d2;
+      }
+
+      .guidance-text h4 {
+        margin: 0 0 8px 0;
+        color: #252933;
+      }
+
+      .guidance-items {
+        display: flex;
+        gap: 8px;
+      }
+    }
+
+    .guidance-right {
+      .guidance-links {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        align-items: flex-end;
+      }
+    }
+  }
+}
+
+.yearly-summary {
+  width: 100%;
+
+  .section-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    .step-number {
+      background: #1976d2;
+      color: white;
+      border-radius: 50%;
+      width: 24px;
+      height: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    h3 {
+      margin: 0;
+      color: #252933;
+    }
+  }
+
+  .yearly-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    width: 100%;
+
+    .yearly-description {
+      flex: 1;
+      color: #666;
+      line-height: 1.6;
+    }
+
+    .yearly-btn {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      white-space: nowrap;
+    }
+  }
+}
+
+.income-expense {
+  width: 100%;
+
+  .entry-card {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    &:hover {
+      border-color: #1976d2;
+      box-shadow: 0 2px 8px rgba(25, 118, 210, 0.1);
+    }
+
+    .entry-icon {
+      color: #1976d2;
+    }
+
+    .entry-text {
+      flex: 1;
+      font-weight: 500;
+      color: #252933;
+    }
+  }
+
+  .income-card {
+    .entry-icon {
+      color: #4caf50;
+    }
+  }
+
+  .expense-card {
+    .entry-icon {
+      color: #f44336;
+    }
+  }
+}
+
+.app-promotion {
+  width: 100%;
+
+  .promotion-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .promotion-left {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      flex: 1;
+
+      .promotion-icon {
+        background: #f0f8ff;
+        padding: 12px;
+        border-radius: 8px;
+        color: #1976d2;
+      }
+
+      .promotion-content {
+        h4 {
+          margin: 0 0 8px 0;
+          color: #252933;
+        }
+
+        p {
+          margin: 0 0 8px 0;
+          color: #666;
+          font-size: 14px;
+        }
+      }
+    }
+
+    .promotion-right {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+
+      .qr-code {
+        .qr-placeholder {
+          width: 80px;
+          height: 80px;
+          background: #f5f5f5;
+          border: 2px dashed #ddd;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 8px;
+          color: #999;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}
+
+.shortcuts {
+  width: 100%;
+
+  .shortcuts-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    span {
+      flex: 1;
+      font-weight: 500;
+    }
+  }
+
+  .shortcut-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding: 16px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    &:hover {
+      border-color: #1976d2;
+      background: #f8fbff;
+    }
+
+    span {
+      font-size: 12px;
+      text-align: center;
+      color: #666;
+    }
+  }
+}
+
+// 工具类样式
+.mt-8 {
+  margin-top: 8px;
+}
+
+.mt-16 {
+  margin-top: 16px;
+}
+
+.mt-24 {
+  margin-top: 24px;
+}
+
+.mb-24 {
+  margin-bottom: 24px;
+}
+
+// 响应式布局
+@media (max-width: 768px) {
+  .finance-container {
+    padding: 16px;
+  }
+
+  .left-cards {
+    margin-bottom: 24px;
+  }
+
+  .finance-main-row {
+    .t-col {
+      margin-bottom: 16px;
+    }
+  }
+}
