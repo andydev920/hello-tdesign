@@ -4,7 +4,7 @@
       <div class="img-holder">
         <div class="bg"></div>
         <div class="info-holder">
-          <img src="../../assets/login/graphic9.svg" alt="" />
+          <img src="@/assets/assets-graphic9.png" alt="" />
         </div>
       </div>
       <div class="form-holder">
@@ -13,7 +13,7 @@
             <div class="website-logo-inside logo-normal">
               <a href="https://brandio.io/envato/iofrm/html/index.html">
                 <div class="logo">
-                  <img class="logo-size" src="../../assets/login/logo-black.svg" alt="" />
+                  <img src="@/assets/assets-logo-black.png" class="logo-size" alt="" />
                 </div>
               </a>
             </div>
