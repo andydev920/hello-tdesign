@@ -61,7 +61,6 @@
       </t-tab-panel>
     </t-tabs>
     <t-content :class="`${prefix}-content-layout`">
-      <l-breadcrumb v-if="settingStore.showBreadcrumb" />
       <page-header />
       <l-content />
     </t-content>
